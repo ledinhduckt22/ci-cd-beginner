@@ -18,7 +18,7 @@ jobs:
           node-version: "18"
 
       - name: Install dependencies
-        run: npm Install
+        run: npm install
 
       - name: Run app
         run: echo "✅ CI/CD is working! Hello from GitHub Actions"
